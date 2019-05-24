@@ -1,6 +1,6 @@
 # bootstrap4rtl
 
-> https://shoae.github.io/bootstrap4rtl/
+> demo: https://shoae.github.io/bootstrap4rtl/
 
 bootstrap 4.3.1 rtl (Persian)
 
