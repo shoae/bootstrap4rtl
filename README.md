@@ -1,5 +1,8 @@
 # bootstrap4rtl
 
+بوت استرپ 4.3.1 راست چین فارسی
+به همراه تمام نمونه قالب های موجود در سایت اصلی
+
 > demo: https://shoae.github.io/bootstrap4rtl/
 
 bootstrap 4.3.1 rtl (Persian)
