@@ -1,0 +1,256 @@
+﻿
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Checkout example · Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/form-validation.css" rel="stylesheet">
+	<link href="assets/fonts/sahel/sahel.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+  </head>
+  <body class="bg-light">
+    <div class="container">
+	  <div class="py-5 text-center">
+		<img class="d-block mx-auto mb-4" src="assets/bootstrap-solid.svg" alt="" width="72" height="72">
+		<h2>فرم پرداخت</h2>
+		<p class="lead">متنی کوتاه و برجسته در مورد مجموعه زیر - مطالب آن، خالق، و غیره آن را کوتاه و شیرین، اما نه خیلی کوتاه، بنابراین مردمی به سادگی به طور کامل آن را پرش نکنید.</p>
+	  </div>
+
+	  <div class="row">
+		<div class="col-md-4 order-md-2 mb-4">
+		  <h4 class="d-flex justify-content-between align-items-center mb-3">
+			<span class="text-muted">سبد خرید</span>
+			<span class="badge badge-secondary badge-pill">3</span>
+		  </h4>
+		  <ul class="list-group mb-3">
+			<li class="list-group-item d-flex justify-content-between lh-condensed">
+			  <div>
+				<h6 class="my-0">عنوان محصول</h6>
+				<small class="text-muted">توضیح</small>
+			  </div>
+			  <span class="text-muted">12</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between lh-condensed">
+			  <div>
+				<h6 class="my-0">عنوان محصول</h6>
+				<small class="text-muted">توضیح</small>
+			  </div>
+			  <span class="text-muted">8</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between lh-condensed">
+			  <div>
+				<h6 class="my-0">عنوان محصول</h6>
+				<small class="text-muted">توضیح</small>
+			  </div>
+			  <span class="text-muted">5</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between bg-light">
+			  <div class="text-success">
+				<h6 class="my-0">تخفیف</h6>
+				<small>کد تخفیف</small>
+			  </div>
+			  <span class="text-success">-5</span>
+			</li>
+			<li class="list-group-item d-flex justify-content-between">
+			  <span>جمع (تومان)</span>
+			  <strong>200</strong>
+			</li>
+		  </ul>
+
+		  <form class="card p-2">
+			<div class="input-group">
+			  <input type="text" class="form-control" placeholder="کد">
+			  <div class="input-group-append">
+				<button type="submit" class="btn btn-secondary">پیگیری</button>
+			  </div>
+			</div>
+		  </form>
+		</div>
+		<div class="col-md-8 order-md-1">
+		  <h4 class="mb-3">اطلاعات خرید</h4>
+		  <form class="needs-validation" novalidate>
+			<div class="row">
+			  <div class="col-md-6 mb-3">
+				<label for="firstName">نام</label>
+				<input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+				<div class="invalid-feedback">
+				  نام معتبر نیست
+				</div>
+			  </div>
+			  <div class="col-md-6 mb-3">
+				<label for="lastName">نام خانوادگی</label>
+				<input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+				<div class="invalid-feedback">
+				  نام خانوادگی معتبر نیست
+				</div>
+			  </div>
+			</div>
+
+			<div class="mb-3">
+			  <label for="username">نام کاربری</label>
+			  <div class="input-group">
+				<div class="input-group-prepend">
+				  <span class="input-group-text">@</span>
+				</div>
+				<input type="text" class="form-control" id="username" placeholder="نام کاربری" required>
+				<div class="invalid-feedback" style="width: 100%;">
+				  نام کاربری معتبر نیست
+				</div>
+			  </div>
+			</div>
+
+			<div class="mb-3">
+			  <label for="email">ایمیل <span class="text-muted">(اختبیاری)</span></label>
+			  <input type="email" class="form-control" id="email" placeholder="you@example.com">
+			  <div class="invalid-feedback">
+				آدرس ایمیل معتبر نیست
+			  </div>
+			</div>
+
+			<div class="mb-3">
+			  <label for="address">آدرس</label>
+			  <input type="text" class="form-control" id="address" placeholder="آدرس" required>
+			  <div class="invalid-feedback">
+				لطفا آدرس را وارد نمایید
+			  </div>
+			</div>
+
+			<div class="mb-3">
+			  <label for="address2">آدرس دوم <span class="text-muted">(اختیاری)</span></label>
+			  <input type="text" class="form-control" id="address2" placeholder="آدرس">
+			</div>
+
+			<div class="row">
+			  <div class="col-md-5 mb-3">
+				<label for="country">کشور</label>
+				<select class="custom-select d-block w-100" id="country" required>
+				  <option value="">انتخاب نمایید</option>
+				  <option>ایران</option>
+				</select>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			  <div class="col-md-4 mb-3">
+				<label for="state">شهر</label>
+				<select class="custom-select d-block w-100" id="state" required>
+				  <option value="">انتخاب نمایید</option>
+				  <option>تهران</option>
+				</select>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			  <div class="col-md-3 mb-3">
+				<label for="zip">کد ملی</label>
+				<input type="text" class="form-control" id="zip" placeholder="" required>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			</div>
+			<hr class="mb-4">
+			<div class="custom-control custom-checkbox">
+			  <input type="checkbox" class="custom-control-input" id="same-address">
+			  <label class="custom-control-label" for="same-address">آدرس حمل و نقل همان آدرس صورت حساب من است</label>
+			</div>
+			<div class="custom-control custom-checkbox">
+			  <input type="checkbox" class="custom-control-input" id="save-info">
+			  <label class="custom-control-label" for="save-info">این اطلاعات را برای دفعه بعد ذخیره کنید</label>
+			</div>
+			<hr class="mb-4">
+
+			<h4 class="mb-3">پرداخت</h4>
+
+			<div class="d-block my-3">
+			  <div class="custom-control custom-radio">
+				<input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+				<label class="custom-control-label" for="credit">کارت اعتباری</label>
+			  </div>
+			  <div class="custom-control custom-radio">
+				<input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+				<label class="custom-control-label" for="debit">اعتبار</label>
+			  </div>
+			  <div class="custom-control custom-radio">
+				<input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+				<label class="custom-control-label" for="paypal">پی پل</label>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-md-6 mb-3">
+				<label for="cc-name">صاحب حساب</label>
+				<input type="text" class="form-control" id="cc-name" placeholder="" required>
+				<small class="text-muted">نام صاحب حساب</small>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			  <div class="col-md-6 mb-3">
+				<label for="cc-number">شماره کارت</label>
+				<input type="text" class="form-control" id="cc-number" placeholder="" required>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col-md-3 mb-3">
+				<label for="cc-expiration">تاریخ اعتبار</label>
+				<input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			  <div class="col-md-3 mb-3">
+				<label for="cc-cvv">CVV</label>
+				<input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+				<div class="invalid-feedback">
+				  انتخاب نمایید
+				</div>
+			  </div>
+			</div>
+			<hr class="mb-4">
+			<button class="btn btn-primary btn-lg btn-block" type="submit">تایید و ادامه</button>
+		  </form>
+		</div>
+	  </div>
+
+	  <footer class="my-5 pt-5 text-muted text-center text-small">
+		<p class="mb-1">&copy; 2017-2019 شرکت</p>
+		<ul class="list-inline">
+		  <li class="list-inline-item"><a href="#">حریم خصوصی</a></li>
+		  <li class="list-inline-item"><a href="#">قوانین</a></li>
+		  <li class="list-inline-item"><a href="#">پشتیبانی</a></li>
+		</ul>
+	  </footer>
+	</div>
+	
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.4.3.1.js"></script>
+	
+</body>
+</html>

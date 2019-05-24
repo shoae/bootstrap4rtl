@@ -1,0 +1,151 @@
+﻿
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Grid Template · Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/grid.css" rel="stylesheet">
+	<link href="assets/fonts/sahel/sahel.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    
+  </head>
+  <body class="py-4">
+    <div class="container">
+
+	  <h1>ستون بندی در بوت استرپ</h1>
+	  <p class="lead">طرح بندی شبکه های اصلی برای آشنا شدن با ساختار ستون بندی در Bootstrap.</p>
+	  <p>در این مثال <code>.themed-grid-col</code> به ستون ها اضافه شده جهت نمایش محدوده هر ستون</p>
+
+	  <h2 class="mt-4">پنج حالت ستون بندی</h2>
+	  <p>پنج حالت سیستم بوت استرپ وجود دارد، برای هر یک از دستگاههایی که ما می شناسیم که از حداقل اندازه نمایشگر شروع می شود و به صورت خودکار به دستگاه های بزرگتر اعمال می شود مگر اینکه لغو شود.</p>
+
+	  <div class="row mb-3">
+		<div class="col-4 themed-grid-col">.col-4</div>
+		<div class="col-4 themed-grid-col">.col-4</div>
+		<div class="col-4 themed-grid-col">.col-4</div>
+	  </div>
+
+	  <div class="row mb-3">
+		<div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+		<div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+		<div class="col-sm-4 themed-grid-col">.col-sm-4</div>
+	  </div>
+
+	  <div class="row mb-3">
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+	  </div>
+
+	  <div class="row mb-3">
+		<div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+		<div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+		<div class="col-lg-4 themed-grid-col">.col-lg-4</div>
+	  </div>
+
+	  <div class="row mb-3">
+		<div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+		<div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+		<div class="col-xl-4 themed-grid-col">.col-xl-4</div>
+	  </div>
+
+	  <h2 class="mt-4">سه ستونه عرض مساوی</h2>
+	  <div class="row mb-3">
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+	  </div>
+
+	  <h2 class="mt-4">سه ستونه عرض نامساوی</h2>
+	  <div class="row mb-3">
+		<div class="col-md-3 themed-grid-col">.col-md-3</div>
+		<div class="col-md-6 themed-grid-col">.col-md-6</div>
+		<div class="col-md-3 themed-grid-col">.col-md-3</div>
+	  </div>
+
+	  <h2 class="mt-4">دو ستونه</h2>
+	  <div class="row mb-3">
+		<div class="col-md-8 themed-grid-col">.col-md-8</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+	  </div>
+
+	  <h2 class="mt-4">تمام عرض تک ستون</h2>
+	  <p class="text-warning">
+		هیچ کلاس ستون بندی برای تک ستون تمام صفحه وجود ندارد، یعنی نیاز به ستون بندی ندارد.
+	  </p>
+
+	  <hr class="my-4">
+
+	  <h2 class="mt-4">دو ستونه با دو ستون داخلی</h2>
+	  <p>برای ایجاد ستون داخلی کافیست یک row جدید به همراه ستون ها در آن ستون اضافه نمایید.</p>
+	  <div class="row mb-3">
+		<div class="col-md-8 themed-grid-col">
+		  <div class="pb-3">
+			.col-md-8
+		  </div>
+		  <div class="row">
+			<div class="col-md-6 themed-grid-col">.col-md-6</div>
+			<div class="col-md-6 themed-grid-col">.col-md-6</div>
+		  </div>
+		</div>
+		<div class="col-md-4 themed-grid-col">.col-md-4</div>
+	  </div>
+
+	  <hr class="my-4">
+
+	  <h2 class="mt-4">ترکیبی: ستون بندی موبایل و دسکتاپ</h2>
+	  <p>The Bootstrap v4 grid system has five tiers of classes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
+	  <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
+	  <div class="row mb-3">
+		<div class="col-12 col-md-8 themed-grid-col">.col-12 .col-md-8</div>
+		<div class="col-6 col-md-4 themed-grid-col">.col-6 .col-md-4</div>
+	  </div>
+	  <div class="row mb-3">
+		<div class="col-6 col-md-4 themed-grid-col">.col-6 .col-md-4</div>
+		<div class="col-6 col-md-4 themed-grid-col">.col-6 .col-md-4</div>
+		<div class="col-6 col-md-4 themed-grid-col">.col-6 .col-md-4</div>
+	  </div>
+	  <div class="row mb-3">
+		<div class="col-6 themed-grid-col">.col-6</div>
+		<div class="col-6 themed-grid-col">.col-6</div>
+	  </div>
+
+	  <hr class="my-4">
+
+	  <h2 class="mt-4">ترکیبی: موبایل، تبلت و دسکتاپ</h2>
+	  <div class="row mb-3">
+		<div class="col-12 col-sm-6 col-lg-8 themed-grid-col">.col-12 .col-sm-6 .col-lg-8</div>
+		<div class="col-6 col-lg-4 themed-grid-col">.col-6 .col-lg-4</div>
+	  </div>
+	  <div class="row mb-3">
+		<div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
+		<div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
+		<div class="col-6 col-sm-4 themed-grid-col">.col-6 .col-sm-4</div>
+	  </div>
+
+	</div> <!-- /container -->
+</body>
+</html>
