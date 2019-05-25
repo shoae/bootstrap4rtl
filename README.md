@@ -2,10 +2,15 @@
     <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" alt="Bootstrap logo" width="72" height="72">
 </p>
 
-# bootstrap4rtl
+<h3 align="center">bootstrap4rtl</h3>
 
+<p align="center">
 بوت استرپ 4.3.1 راست چین فارسی
+<br/>
 به همراه تمام نمونه قالب های موجود در سایت اصلی
+</p>
+
+
 
 > demo: https://shoae.github.io/bootstrap4rtl/
 
