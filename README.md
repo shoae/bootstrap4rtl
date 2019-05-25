@@ -30,5 +30,6 @@ Donation (WebMoney transfer):
 
 > Wallets: Z762602395329 , X921132827476
 
-Screenshot:
-![Screenshot](assets/preview.png)
+<a href="https://shoae.github.io/bootstrap4rtl/">
+  <img src="assets/preview.png" />
+</a>
