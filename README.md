@@ -24,7 +24,7 @@ bootstrap 4.3.1 rtl Persian
 
 <p align="center">
   <a href="https://ppng.ir/d/itL4">
-    :gift: حمایت
+    حمایت :gift:
   </a>
 </p>
 
