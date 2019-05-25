@@ -11,6 +11,10 @@ bootstrap 4.3.1 rtl (Persian)
 
 > http://dev62.com
 
+<div style="text-align: center;">
+  <a class="btn btn-success" href="https://ppng.ir/d/itL4">حمایت مالی</a>
+</div>
+
 Screenshot:
 ![Screenshot](assets/preview.png)
 
