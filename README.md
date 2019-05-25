@@ -11,7 +11,7 @@ bootstrap 4.3.1 rtl (Persian)
 
 > http://dev62.com
 
-[button url="https://ppng.ir/d/itL4"] :gift:
+<a class="btn btn-success" tarhet="_blank" href="https://ppng.ir/d/itL4">:gift: حمایت</a>
 
 Screenshot:
 ![Screenshot](assets/preview.png)
