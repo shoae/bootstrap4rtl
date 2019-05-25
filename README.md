@@ -18,11 +18,9 @@ bootstrap 4.3.1 rtl Persian
 
 > demo: https://shoae.github.io/bootstrap4rtl/
 
-bootstrap 4.3.1 rtl (Persian)
-
 > RTL version of: https://getbootstrap.com/docs/4.3/examples/
 
-> http://dev62.com
+> developer: http://dev62.com
 
 <a class="github-button" target="_blank" href="https://ppng.ir/d/itL4">:gift: حمایت</a>
 
