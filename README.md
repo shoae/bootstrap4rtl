@@ -25,7 +25,7 @@ bootstrap 4.3.1 rtl Persian
 ## Install
 
 nuget: https://www.nuget.org/packages/bootstrap4rtl/
-> Install-Package bootstrap4rtl -Version 4.3.1
+> PM> Install-Package bootstrap4rtl -Version 4.3.1
 
 <p align="center">
   <a href="https://ppng.ir/d/itL4">
