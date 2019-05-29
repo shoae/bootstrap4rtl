@@ -22,6 +22,11 @@ bootstrap 4.3.1 rtl Persian
 
 > developer: http://dev62.com
 
+## Install
+
+nuget: https://www.nuget.org/packages/bootstrap4rtl/
+> Install-Package bootstrap4rtl -Version 4.3.1
+
 <p align="center">
   <a href="https://ppng.ir/d/itL4">
     حمایت :gift:
