@@ -33,9 +33,9 @@ nuget: https://www.nuget.org/packages/bootstrap4rtl/
   </a>
 </p>
 
-Donation (WebMoney transfer):
+Donation:
 
-> Wallets: Z762602395329 , X921132827476
+> DOGE Address: DN6pzonUBbmZSsppqp7WzAFddDjGfaXxcE
 
 <a href="https://shoae.github.io/bootstrap4rtl/">
   <img src="assets/preview.png" />
