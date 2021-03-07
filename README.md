@@ -35,7 +35,7 @@ nuget: https://www.nuget.org/packages/bootstrap4rtl/
 
 Donation:
 
-> DOGE Address: DN6pzonUBbmZSsppqp7WzAFddDjGfaXxcE
+> DOGE Address: <b>DN6pzonUBbmZSsppqp7WzAFddDjGfaXxcE</b>
 
 <a href="https://shoae.github.io/bootstrap4rtl/">
   <img src="assets/preview.png" />
